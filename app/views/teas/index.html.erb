@@ -1,0 +1,16 @@
+<h1>Tea card</h1>
+
+
+<% @tea.each do |t| %>
+<h2>
+<%= t.title %>
+</h2>
+<img src="<%= t.link_to_pic %>" alt="">
+
+<p><%= t.description %></p>
+
+<i><%= t.price %> lei</i>
+
+
+
+<%end%>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<h2>Выберите страну</h2>
+<% @country.each do |country| %>
+<h3>
+<a href='/countries/<%=country.id%>/teas'><%= country.title %></button>
+
+
+</h3>
+
+<%end%>	
+</body>
+</html>

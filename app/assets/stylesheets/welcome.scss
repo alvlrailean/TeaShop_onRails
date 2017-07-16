@@ -1,0 +1,51 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+	box-sizing: border-box;
+}
+
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&_item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		text-decoration: none;
+		color: white;
+		background-color: #bdbdbd;
+		flex-basis: 25%;
+		transition: all 0.25s;
+		&:hover {
+			flex-basis: 50%;
+		}
+	}
+
+	.item1{
+		background: url(1.png) no-repeat center center;
+		background-size: cover;
+	}
+
+	.item2{
+		background: url(2.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	.item3{
+		background: url(3.jpg) no-repeat center center;
+		background-size: cover;
+	}
+
+	.item4{
+		background: url(4.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
